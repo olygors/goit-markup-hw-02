@@ -1,0 +1,202 @@
+:root {
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+    --primary-text-color-theme-light: #212121;
+    --secondary-text-color-theme-light: #757575;
+    --primary-text-color-theme-dark: #ffffff;
+    --secondary-text-color-theme-dark: rgba(255, 255, 255, 0.6);
+    
+    --accent-color: #2196F3;
+    --logo-second-color: #000000;
+    --background: #2F303A;
+    --secondary-background: #F5F4FA;
+}
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.visually-hidden {
+    visibility: hidden;
+}
+.accent-logo,
+.logo {
+    text-decoration: none;
+}
+body {
+    font-family: var(--primary-font-family);
+    color: var(--primary-text-color-theme-light);
+    font-style: normal;
+    font-weight: 400;
+}
+/*------------------------------------HOME PAGE--------------------------------*/
+
+/*----------header----------*/
+
+.logo {
+    color: var(--logo-second-color);
+}
+.accent-logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.menu-link {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color-theme-light);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+/*----------hero----------*/
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: var(--primary-text-color-theme-dark);
+}
+.modal-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    
+    color: var(--primary-text-color-theme-dark);
+    cursor: pointer;
+}
+.hero {
+    background-color: var(--background);
+}
+/* ----------main----------*/
+
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.features-descr {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-text-color-theme-light);
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+.employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.employees-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-text-color-theme-light);
+}
+/*----------footer----------*/
+
+.logo-footer {
+color: var(--primary-text-color-theme-dark);
+}
+.adress-link {
+    font-style: normal;
+    font-weight: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
+    color: var(--primary-text-color-theme-dark);
+}
+.footer-contact {
+    font-style: normal;
+    font-weight: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-text-color-theme-dark);
+}
+.footer {
+    background-color: var(--background);
+}
+
+/*-------------------------------------------PORTFOLIO PAGE------------------------------------*/
+/*--------------FILTER BUTTONS------------*/
+
+.buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background-color: -secondary-background;
+    cursor: pointer;
+}
+
+.buttons:hover,
+.buttons:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-text-color-theme-dark);
+}
+
+/*--------------PROJECTS-------------------*/
+
+.text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.headline {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-text-color-theme-light);
+}
